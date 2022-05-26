@@ -1,7 +1,7 @@
 variable "prefix" {
   default = "Mr"
   type = string
-  description = "This is the variable for the prefix of the animal"
+  description = "This is the variable for the prefix of the pet"
 }
 variable "separator" {
   default = " "
