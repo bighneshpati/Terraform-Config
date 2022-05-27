@@ -9,7 +9,7 @@ variable "separator" {
   description = "This act's as the separator between words"
 }
 variable "length" {
-  default = 3
+  default = 4
   type = number
   description = "This is the no. of words produced"
 }
