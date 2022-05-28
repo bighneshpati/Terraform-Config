@@ -7,3 +7,6 @@ resource "random_pet" pet {
 	separator = var.separator
 	length = var.length
 }
+output "intro_message" {
+	value = local_file.pet_name.content
+}
